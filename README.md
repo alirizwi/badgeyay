@@ -13,7 +13,7 @@ The goal of badgeyay is to provide a simple badge generator with the following f
    
    
 To get a better idea about the working of badgeyay ,you can check out the following:
-[![Alt Watch](https://img.youtube.com/vi/Gh8j_01LIoQ/hqdefault.jpg)](https://www.youtube.com/watch?v=Gh8j_01LIoQ)
+[![Alt Watch](https://user-images.githubusercontent.com/8705386/30831526-438f8c4c-a237-11e7-83fc-c12046f12e18.png)](https://www.youtube.com/watch?v=Gh8j_01LIoQ)
 
 This first step is to provide a simple script to generate the badges for the FOSSASIA conference. The next step is to provide a web UI.
 
@@ -27,6 +27,17 @@ If you like to join developing,
 
 Specification
 -------------
+
+### Technologies Used
+
+Badgeyay uses a number of open source projects:
+
+* [Flask](http://flask.pocoo.org/) - Microframework powered by python
+* [Bootstrap](http://getbootstrap.com/) - Responsive frontend framework
+* [Shell](https://en.wikipedia.org/wiki/Unix_shell) - Script used for merging badges of different types
+* [Heroku](https://www.heroku.com/) - Webapp deployed here
+* [Travis](travis-ci.org) - Continuous Integration of the project
+* [Github Release](https://help.github.com/articles/creating-releases/) - Releases are GitHub's way of packaging and providing software to the users
 
 ### Input
 
